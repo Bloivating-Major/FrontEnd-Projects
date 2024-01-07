@@ -1,0 +1,6 @@
+1. we don't code frames in designs we only code the designs section.
+
+APPROACH TOWARD BUIDLING THE WEBPAGE
+
+1. Here is our nav bar.
+2.

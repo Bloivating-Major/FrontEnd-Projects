@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+nav {
+  /* background-color: crimson; */
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 0 30px;
+}
+
+nav h4{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+nav i {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 50%;
+}
+
+#center{
+  /* background-color: palevioletred; */
+  width: 100%;
+  padding: 20px 80px;
+}
+
+#center h1{
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 90px;
+}
+
+#center-in{
+  /* background-color: red; */
+  width: 100%;
+  margin-top: 42px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#center-in p{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#right {
+  /* background-color: burlywood; */
+  width: 20%;
+}
+
+.elem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 3px solid rgba(0, 0, 0, 0.692);
+  padding: 20px 0px;
+  
+}
+
+.elem i{
+  font-size: 25px;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.elem:hover i{
+  opacity: 1;
+}
+
+.elem a{
+  color: rgba(0, 0, 0, 0.815);
+  text-decoration: none;
+  font-weight: 600;
+    font-size: 20px;
+}
+
+#bottom{
+  width: 100%;
+  height: 34%;
+  background-image: url(keith-morales-NBEIdcXh2sU-unsplash.jpg);
+  /* background-repeat: no-repeat; */
+  background-size:cover;
+  background-position: 0% 45%;
+ 
+}
