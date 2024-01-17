@@ -120,9 +120,9 @@ body {
 }
 
 .elements h1 {
-  font-family: VOLTDECO;
+  font-family: ORBITRON;
   /* font-size: 160px; */
-  font-size: 8.333vw;
+  font-size: 5.333vw;
   font-weight: 100;
 }
 
@@ -307,9 +307,10 @@ body {
   }
 
   .elements h1 {
-    font-family: VOLTDECO;
+    font-family: ORBITRON;
     /* font-size: 160px; */
-    font-size: 14.333vw;
+    font-size: 8.333vw;
+    white-space: nowrap;
     font-weight: 100;
   }
 
