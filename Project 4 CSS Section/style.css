@@ -10,6 +10,12 @@ body {
   height: 100%;
 }
 
+@font-face{
+  font-family: VOLTDECO;
+  src: url('voltdeco-medium.otf');
+}
+
+
 #main {
   height: 100%;
   width: 100%;
@@ -120,9 +126,9 @@ body {
 }
 
 .elements h1 {
-  font-family: ORBITRON;
+  font-family: VOLTDECO;
   /* font-size: 160px; */
-  font-size: 5.333vw;
+  font-size: 8.333vw;
   font-weight: 100;
 }
 
@@ -307,9 +313,9 @@ body {
   }
 
   .elements h1 {
-    font-family: ORBITRON;
+    font-family: VOLTDECO;
     /* font-size: 160px; */
-    font-size: 8.333vw;
+    font-size: 15.333vw;
     white-space: nowrap;
     font-weight: 100;
   }
