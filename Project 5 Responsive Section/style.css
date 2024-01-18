@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GILROY;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: MONUMENT;
+  src: url(MonumentExtended-Ultrabold.otf);
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-top: 0.1px;
+  background-color: #f8f8f8;
+  /* background-color: #f3c9c9; */
+}
+
+#nav {
+  height: 10vh;
+  width: 100%;
+  margin-top: 40px;
+  /* background-color: crimson; */
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav h1 {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: MONUMENT;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: -5px;
+  /* background-color: rgb(179, 255, 0); */
+}
+#nav h2 {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 3px solid black;
+  font-size: 26px;
+  font-weight: 600;
+  /* background-color: rgb(179, 255, 0); */
+}
+
+#nav h2:nth-last-child(2) {
+  /* background-color: crimson; */
+  width: 29%;
+}
+
+#nav h2:nth-last-child(1) {
+  /* background-color: crimson; */
+  width: 10%;
+}
+
+#center {
+  width: 100;
+  height: 80%;
+  /* background-color: crimson; */
+  padding: 3vw;
+  position: relative;
+}
+#content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  /* background-color: violet; */
+}
+
+#content video {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#overlay {
+  height: 52%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 3vw;
+  /* background-color: rgb(255, 45, 168); */
+  color: white;
+}
+
+#over1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2vw;
+}
+
+#over1 h1 {
+  font-family: MONUMENT;
+  font-size: 3.4vw;
+  mix-blend-mode: difference;
+}
+
+#over1 h2 {
+  font-size: 1vw;
+  padding: 2vw 2.2vw;
+  border-radius: 50%;
+  border: 2px solid white;
+  mix-blend-mode: difference;
+  /* background-color: blueviolet; */
+}
+
+#over2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid white;
+  padding: 1vw 0;
+  mix-blend-mode: difference;
+}
+
+#over2 h4 {
+  font-size: 1.3vw;
+  font-weight: 500;
+}
+
+#over2 img {
+  height: 4.5vw;
+}
