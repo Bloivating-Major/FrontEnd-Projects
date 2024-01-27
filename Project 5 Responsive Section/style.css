@@ -460,3 +460,25 @@ body {
 #left_section svg:hover .textcircle {
   transform: scale(1.2) rotate(90deg);
 }
+
+/* Animation Done */
+
+#left_section #circulartext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+#circulartext #icon img {
+  height: 6vw;
+  position: absolute;
+  top: 58%;
+  right: 50%;
+}
+#left_section #heading {
+  align-self: flex-start;
+}
+#left_section #heading h4 {
+  font-size: 1.5vw;
+  font-weight: 700;
+}
