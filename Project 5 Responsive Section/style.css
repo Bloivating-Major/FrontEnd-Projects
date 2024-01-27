@@ -274,3 +274,45 @@ body {
     transform: translate(-100%);
   }
 }
+
+/* Alphabet  Full Section */
+
+#alphabet {
+  height: 10vh;
+  width: 100%;
+  /* background-color: crimson; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#alphabet h5 {
+  font-size: 2vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: italic;
+  border-bottom: 2px solid black;
+  letter-spacing: 4px;
+  margin-right: 2vw;
+}
+
+#alphabet h6 {
+  align-items: center;
+  font-size: 1vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 4px;
+  /* background-color: yellow; */
+  border-radius: 50%;
+  border: 1.5px solid rgba(0, 0, 0, 0);
+  padding: 0.4vw 0.6vw;
+  cursor: none;
+  transition: all ease 0.2s;
+}
+#alphabet h6:hover {
+  border: 1.5px solid rgb(0, 0, 0);
+}
