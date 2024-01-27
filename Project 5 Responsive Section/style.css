@@ -232,3 +232,45 @@ body {
 #over2 img {
   height: 4.5vw;
 }
+
+/* Scroll Animation Full Section */
+
+#scroll {
+  height: 40vh;
+  width: 100%;
+  background-color: #f8f8f8;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#container {
+  height: 100%;
+  width: 110%;
+  display: inline-block;
+  padding: 2vw;
+  margin-right: 16.8vw;
+  animation-name: scroll_anime;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#scroll img {
+  /* display: none; */
+  height: 100%;
+  width: 15%;
+  object-fit: cover;
+  object-position: 30% 40%;
+  margin: 1vw;
+  border-radius: 50%;
+}
+
+@keyframes scroll_anime {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(-100%);
+  }
+}
