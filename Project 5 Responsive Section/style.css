@@ -423,3 +423,40 @@ body {
   background-color: rgb(80, 20, 220);
 }
 
+/* SVG TEXT CIRCULAR ANIMATION */
+
+#left_section text {
+  fill: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 600;
+  font-variant-ligatures: none;
+  letter-spacing: 10px;
+  animation: rotate 10s linear infinite;
+  transform-origin: 250px 250px;
+}
+
+#left_section text:hover {
+  fill: rgb(207, 44, 44);
+}
+
+#left_section svg {
+  max-width: 80vmin;
+  position: relative;
+  top: 20%;
+  right: 15%;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.textcircle {
+  transition: transform 1s cubic-bezier(0.65, 0, 0.35, 1);
+  transform-origin: 250px 250px;
+}
+
+#left_section svg:hover .textcircle {
+  transform: scale(1.2) rotate(90deg);
+}
