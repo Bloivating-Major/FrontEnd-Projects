@@ -658,3 +658,20 @@ body {
   background-position: center;
   /* background-color: greenyellow; */
 }
+
+/* Page 7 Full Section */
+
+#page7 {
+  height: 100%;
+  width: 100%;
+  padding: 4vw;
+}
+
+#page7image {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  background-image: url(./page7\ assets/img1.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
