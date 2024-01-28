@@ -578,3 +578,27 @@ body {
   font-weight: 500;
   text-transform: uppercase;
 }
+
+/* Page 6 Full Section */
+
+#page6 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 5vw;
+  /* background-color: crimson; */
+  padding: 4vw;
+}
+
+#page6-left_section {
+  height: 100%;
+  width: 45%;
+  /* background-color: black; */
+}
+#page6-left_section img {
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: 0 65%;
+  height: 100%;
+  width: 100%;
+}
