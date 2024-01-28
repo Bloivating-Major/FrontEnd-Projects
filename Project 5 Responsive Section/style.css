@@ -697,3 +697,21 @@ body {
   background-position: 0 30%;
   background-repeat: no-repeat;
 }
+
+#page8_part2 {
+  height: 100%;
+  width: 42%;
+  display: flex;
+  gap: 2vw;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#page8_image {
+  height: 73%;
+  width: 100%;
+  border-radius: 15px;
+  background-image: url(./page8\ assets/img2.jpg);
+  background-size: cover;
+  background-position: center;
+}
