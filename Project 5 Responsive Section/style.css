@@ -632,3 +632,29 @@ body {
   font-size: 1vw;
   font-weight: 500;
 }
+
+#imagespage6 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  gap: 2vw;
+  /* background-color: crimson; */
+}
+#image1 {
+  height: 100%;
+  width: 60%;
+  border-radius: 7px;
+  background-image: url(./page6\ assets/img2.jpg);
+  background-size: cover;
+  background-position: 0 40%;
+  /* background-color: greenyellow; */
+}
+#image2 {
+  height: 100%;
+  width: 40%;
+  border-radius: 7px;
+  background-image: url(./page6\ assets/img3.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-color: greenyellow; */
+}
