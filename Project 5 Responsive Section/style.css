@@ -715,3 +715,22 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+#page8_text {
+  display: flex;
+  justify-content: space-between;
+}
+
+#page8_text-left h3 {
+  font-size: 1.7vw;
+  font-weight: 500;
+}
+
+#page8_text-right {
+  width: 50%;
+}
+
+#page8_text-right h6 {
+  font-size: 1.2vw;
+  font-weight: 500;
+}
