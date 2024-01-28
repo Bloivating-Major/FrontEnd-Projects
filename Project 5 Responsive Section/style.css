@@ -675,3 +675,25 @@ body {
   background-size: cover;
   background-position: bottom;
 }
+
+/* Page 8 Full Section */
+
+#page8 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4vw;
+  /* padding-bottom: 0.7vw; */
+}
+
+#page8_part1 {
+  height: 100%;
+  width: 55%;
+  border-radius: 15px;
+  background-image: url(./page8\ assets/img1.jpg);
+  background-size: cover;
+  background-position: 0 30%;
+  background-repeat: no-repeat;
+}
