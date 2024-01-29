@@ -858,3 +858,20 @@ body {
   background-position: 0 30%;
   /* background-color: yellow; */
 }
+
+/* Footer Full Section */
+
+#page10 {
+  height: 50%;
+  width: 100%;
+  /* border: 3px solid; */
+}
+
+#footer {
+  height: 35vh;
+  width: 100%;
+  display: flex;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  /* border: 3px solid red; */
+}
