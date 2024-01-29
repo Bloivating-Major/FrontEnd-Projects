@@ -961,3 +961,27 @@ body {
   border-bottom: 3px solid black;
   /* background-color: crimson; */
 }
+
+#footer #part3 #socialmedia {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vw;
+  padding-left: 3vw;
+  justify-content: space-around;
+  /* background-color: rgb(43, 255, 0); */
+}
+
+#footer #part3 #socialmedia #links {
+  font-size: 1.5vw;
+}
+
+#footer #part3 #socialmedia #links i {
+  padding-right: 1vw;
+}
+
+#footer #part3 #socialmedia #information {
+  font-size: 1vw;
+  font-weight: 500;
+}
