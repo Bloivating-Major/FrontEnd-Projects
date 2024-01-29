@@ -875,3 +875,25 @@ body {
   border-bottom: 3px solid black;
   /* border: 3px solid red; */
 }
+
+#footer #part1 {
+  height: 100%;
+  width: 40%;
+  /* border: 3px solid; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 4vw;
+}
+
+#footer h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-family: MONUMENT;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: -5px;
+  position: relative;
+  /* background-color: rgb(179, 255, 0); */
+}
