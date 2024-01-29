@@ -779,3 +779,20 @@ body {
     transform: translate(calc(-100% - 20px));
   }
 }
+
+#page9_content {
+  height: 90%;
+  width: 100%;
+  padding: 4vw;
+  display: flex;
+  gap: 3.5vw;
+  /* background-color: violet; */
+}
+
+#page9_left-section {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: greenyellow; */
+}
