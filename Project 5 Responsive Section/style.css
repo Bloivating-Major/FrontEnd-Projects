@@ -827,3 +827,34 @@ body {
   background-position: 0 15%;
   /* background-color: yellow; */
 }
+
+#page9_right-section {
+  height: 100%;
+  width: 45%;
+  /* background-color: rgb(153, 255, 0); */
+}
+
+#page9_informationright {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: blue; */
+  padding-bottom: 3vw;
+}
+
+#page9_informationright h3 {
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+
+#page9imageright {
+  height: 70%;
+  width: 100%;
+  border-radius: 15px;
+  background-image: url(./page9\ assets/img2.jpg);
+  background-size: cover;
+  background-position: 0 30%;
+  /* background-color: yellow; */
+}
