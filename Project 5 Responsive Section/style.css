@@ -734,3 +734,39 @@ body {
   font-size: 1.2vw;
   font-weight: 500;
 }
+
+/* Page 9 Full Section */
+
+#page9 {
+  height: 100%;
+  width: 100%;
+}
+
+#marque {
+  /* height: 15vh; */
+  width: 100%;
+  /* background-color: crimson; */
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 1vw;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#marque h1 {
+  /* background-color: black; */
+  display: inline-block;
+  letter-spacing: 6px;
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-weight: 900;
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+  font-family: MONUMENT;
+  margin-right: 16px;
+  animation: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
