@@ -1117,4 +1117,19 @@ body {
     font-size: 1vw;
     font-weight: 500;
   }
+
+   /* Page 3  Full Section */
+
+  #page3 {
+    height: 35%;
+    position: relative;
+  }
+
+  #page3 #page3_header {
+    height: 40%;
+  }
+
+  #page3 #page3_header h1 {
+    font-size: 4vw;
+  }
 }
