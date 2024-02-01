@@ -1089,4 +1089,32 @@ body {
   #alphabet h6 {
     display: none;
   }
+
+  /* Page 2 Full Section */
+
+  #page2 {
+    height: 40%;
+  }
+
+  #page2_part2 {
+    height: 100%;
+    width: 35%;
+  }
+
+  #page2_part2 #image {
+    height: 70%;
+    width: 100%;
+  }
+
+  #page2_part2 #text #text-left h3 {
+    width: 100px;
+    font-size: 3vw;
+    font-weight: 700;
+  }
+
+  #page2_part2 #text #text-right h6 {
+    display: none;
+    font-size: 1vw;
+    font-weight: 500;
+  }
 }
