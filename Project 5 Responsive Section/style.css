@@ -1132,4 +1132,14 @@ body {
   #page3 #page3_header h1 {
     font-size: 4vw;
   }
+
+   /* SVG TEXT CIRCULAR ANIMATION */
+
+  #left_section svg {
+    max-width: 25vmin;
+    position: relative;
+    top: -25%;
+    right: 15%;
+  }
+
 }
