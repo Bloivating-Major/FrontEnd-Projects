@@ -987,5 +987,29 @@ body {
 }
 
 @media (max-width: 425px) {
-  
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  #nav {
+    height: 8vh;
+    margin-top: 20px;
+    padding: 0 5vw;
+  }
+
+  #nav h1 {
+    width: 40%;
+    font-size: 24px;
+    letter-spacing: -1px;
+    position: relative;
+  }
+
+  #nav h1::after {
+    display: none;
+  }
+
+  #nav h1::before {
+    display: none;
+  }
 }
