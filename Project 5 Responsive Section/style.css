@@ -1049,4 +1049,44 @@ body {
   #over2 img {
     height: 9.5vw;
   }
+
+  /* Scroll Animation Full Section */
+
+  #scroll {
+    height: 17vh;
+    width: 100%;
+  }
+
+  #container {
+    height: 100%;
+    width: 210%;
+  }
+
+  #scroll img {
+    width: 14.25%;
+    margin: 1vw;
+    border-radius: 50%;
+  }
+
+  #alphabet {
+    height: 8vh;
+    width: 100%;
+    margin-top: 4vh;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  #alphabet h5 {
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    border-bottom: 2px solid black;
+    letter-spacing: 4px;
+    margin-right: 2vw;
+  }
+
+  #alphabet h6 {
+    display: none;
+  }
 }
