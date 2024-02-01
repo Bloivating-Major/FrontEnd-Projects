@@ -1167,5 +1167,13 @@ body {
     font-size: 1.7vw;
   }
 
+    /* Page 4  Full Section */
+
+  #page4 {
+    height: 30%;
+    padding: 1.3vw 4vw;
+    /* background-color: crimson; */
+  }
+
 
 }
