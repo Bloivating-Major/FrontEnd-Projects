@@ -341,7 +341,7 @@ body {
   height: 100%;
   width: 57%;
   border-radius: 15px;
-  background-image: url(./page2\assets/img1.jpg);
+  background-image: url(./page2\ assets/img1.jpg);
   background-size: cover;
   background-position: 0% 60%;
   background-repeat: no-repeat;
