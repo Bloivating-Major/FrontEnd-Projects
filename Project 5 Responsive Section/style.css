@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: GILROY;
+  font-family: Gilroy;
 }
 
 html,
@@ -13,7 +13,12 @@ body {
 
 /* Fonts */
 
-* Gilroy Thin */
+@font-face {
+  font-family: MONUMENT;
+  src: url(./Fonts/MonumentExtended-Ultrabold.otf);
+}
+
+/* Gilroy Thin */
 @font-face {
   font-family: "Gilroy";
   src: url("./Fonts/Gilroy-Thin.ttf") format("truetype");
@@ -69,11 +74,6 @@ body {
   font-weight: 900;
 }
 
-@font-face {
-  font-family: MONUMENT;
-  src: url(MonumentExtended-Ultrabold.otf);
-}
-
 /* Main Webpage Design */
 
 body {
@@ -96,8 +96,8 @@ body {
   width: 100%;
   margin-top: 40px;
   /* background-color: crimson; */
-  border-top: 3px solid #000000;
-  border-bottom: 3px solid #000000;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -170,13 +170,12 @@ body {
 /* Video Full Section */
 
 #center {
-  width: 100;
+  width: 100%;
   height: 80%;
   /* background-color: crimson; */
   padding: 3vw;
   position: relative;
 }
-
 #content {
   height: 100%;
   width: 100%;
@@ -294,7 +293,7 @@ body {
   justify-content: center;
   gap: 1vw;
   border-top: 3px solid #000000;
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid black;
 }
 
 #alphabet h5 {
@@ -302,7 +301,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-style: italic;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid black;
   letter-spacing: 4px;
   margin-right: 2vw;
 }
@@ -505,7 +504,7 @@ body {
   background-image: url("./page4 assets/img1.jpg");
   background-size: cover;
   border-radius: 15px;
- /* background-color: purple; */
+  background-color: purple;
 }
 
 /* Page 5 Full Section */
@@ -529,16 +528,15 @@ body {
   height: 15vh;
   width: 100%;
   /* background-color: crimson; */
-  border-top: 3px solid #000000;
+  border-top: 3px solid black;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 2vw;
   position: relative;
 }
-
 .elements:nth-last-child(1) {
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid black;
 }
 .elements img {
   height: 120px;
@@ -565,7 +563,7 @@ body {
 }
 .elements:hover {
   background-color: rgb(0, 0, 0);
-  color: #ffffff;
+  color: white;
   cursor: none;
 }
 .elements h4 {
@@ -640,7 +638,6 @@ body {
   font-size: 1vw;
   font-weight: 500;
 }
-
 #imagespage6 {
   height: 50%;
   width: 100%;
@@ -758,8 +755,8 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
   padding: 1vw;
-  border-top: 2px solid #000000;
-  border-bottom: 2px solid #000000;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 #marque h1 {
@@ -769,7 +766,7 @@ body {
   font-size: 3vw;
   text-transform: uppercase;
   font-weight: 900;
-  -webkit-text-stroke: 2px #000000;
+  -webkit-text-stroke: 2px black;
   color: transparent;
   font-family: MONUMENT;
   margin-right: 16px;
@@ -879,8 +876,8 @@ body {
   height: 35vh;
   width: 100%;
   display: flex;
-  border-top: 3px solid #000000;
-  border-bottom: 3px solid #000000;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
   /* border: 3px solid red; */
 }
 
@@ -941,8 +938,8 @@ body {
   height: 100%;
   width: 20%;
   padding-top: 1vw;
-  border-left: 3px solid #000000;
-  border-right: 3px solid #000000;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
 }
 
 #footer #part2 h2 {
@@ -966,7 +963,7 @@ body {
   padding-left: 3vw;
   font-size: 26px;
   font-weight: 700;
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid black;
   /* background-color: crimson; */
 }
 
@@ -1126,7 +1123,7 @@ body {
     font-weight: 500;
   }
 
-   /* Page 3  Full Section */
+  /* Page 3  Full Section */
 
   #page3 {
     height: 35%;
@@ -1141,7 +1138,7 @@ body {
     font-size: 4vw;
   }
 
-   /* SVG TEXT CIRCULAR ANIMATION */
+  /* SVG TEXT CIRCULAR ANIMATION */
 
   #left_section svg {
     max-width: 25vmin;
@@ -1150,7 +1147,7 @@ body {
     right: 15%;
   }
 
-    /* Animation Done */
+  /* Animation Done */
 
   #left_section text {
     animation: rotate 5s linear infinite;
@@ -1175,7 +1172,7 @@ body {
     font-size: 1.7vw;
   }
 
-    /* Page 4  Full Section */
+  /* Page 4  Full Section */
 
   #page4 {
     height: 30%;
@@ -1183,7 +1180,6 @@ body {
     /* background-color: crimson; */
   }
 
-  
   /* Page 5 Full Section */
 
   #page5 {
@@ -2704,7 +2700,4 @@ body {
   #footer #part3 #socialmedia #information {
     font-size: 1.3vw;
   }
-}
-
-
 }
