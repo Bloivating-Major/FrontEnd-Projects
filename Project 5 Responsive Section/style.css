@@ -76,6 +76,10 @@ body {
 
 /* Main Webpage Design */
 
+body {
+  background-color: #f8f8f8;
+}
+
 #main {
   height: 100%;
   width: 100%;
@@ -151,12 +155,16 @@ body {
 
 #nav h2:nth-last-child(2) {
   /* background-color: crimson; */
-  width: 29%;
+  width: 15%;
 }
 
 #nav h2:nth-last-child(1) {
   /* background-color: crimson; */
   width: 10%;
+}
+
+#nav h3 {
+  display: none;
 }
 
 /* Video Full Section */
@@ -285,8 +293,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1vw;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
 }
 
 #alphabet h5 {
@@ -294,7 +302,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-style: italic;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #000000;
   letter-spacing: 4px;
   margin-right: 2vw;
 }
@@ -333,7 +341,7 @@ body {
   height: 100%;
   width: 57%;
   border-radius: 15px;
-  background-image: url(./page2\ assets/img1.jpg);
+  background-image: url(./page2\assets/img1.jpg);
   background-size: cover;
   background-position: 0% 60%;
   background-repeat: no-repeat;
@@ -497,7 +505,7 @@ body {
   background-image: url("./page4 assets/img1.jpg");
   background-size: cover;
   border-radius: 15px;
-  background-color: purple;
+ /* background-color: purple; */
 }
 
 /* Page 5 Full Section */
@@ -521,7 +529,7 @@ body {
   height: 15vh;
   width: 100%;
   /* background-color: crimson; */
-  border-top: 3px solid black;
+  border-top: 3px solid #000000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -530,7 +538,7 @@ body {
 }
 
 .elements:nth-last-child(1) {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #000000;
 }
 .elements img {
   height: 120px;
@@ -557,7 +565,7 @@ body {
 }
 .elements:hover {
   background-color: rgb(0, 0, 0);
-  color: white;
+  color: #ffffff;
   cursor: none;
 }
 .elements h4 {
@@ -750,8 +758,8 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
   padding: 1vw;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 
 #marque h1 {
@@ -761,7 +769,7 @@ body {
   font-size: 3vw;
   text-transform: uppercase;
   font-weight: 900;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 2px #000000;
   color: transparent;
   font-family: MONUMENT;
   margin-right: 16px;
@@ -871,8 +879,8 @@ body {
   height: 35vh;
   width: 100%;
   display: flex;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
   /* border: 3px solid red; */
 }
 
@@ -933,8 +941,8 @@ body {
   height: 100%;
   width: 20%;
   padding-top: 1vw;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+  border-left: 3px solid #000000;
+  border-right: 3px solid #000000;
 }
 
 #footer #part2 h2 {
@@ -958,7 +966,7 @@ body {
   padding-left: 3vw;
   font-size: 26px;
   font-weight: 700;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #000000;
   /* background-color: crimson; */
 }
 
